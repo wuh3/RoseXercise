@@ -1,0 +1,62 @@
+body {
+    background: #fff;
+}
+
+.navbar {
+    background-color: #800000;
+    color: white;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+#titleLink {
+    margin-right: auto;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+#saveButton {
+    color: white;
+    margin-top: 5px;
+}
+
+#deleteButton {
+    margin-left: auto;
+    margin-right: 5em;
+}
+
+#specContainer {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#weightLabel {
+    grid-column: 1 / 3;
+}
+
+#noteLabel {
+    width: 100%;
+    grid-column: 1 / 4;
+    height: 100px;
+}
+
+.fullrow {
+    grid-column: 1 / 4;
+}
+
+#unitDropdown {
+    grid-column: 3 / 4;
+    width: 100%;
+    text-align: right;
+}
+
+#modeDropdown {
+    width: 100%;
+    text-align: right;
+}
