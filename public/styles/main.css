@@ -60,3 +60,26 @@ body {
     width: 100%;
     text-align: right;
 }
+
+#exerciseContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: purple;
+    line-height: 100px;
+    text-align: left;
+    color: white;
+}
+
+#bicepCurlBox {
+    margin-left: 10%;
+}
+
+.checkbox {
+    text-align: right;
+}
+
+.checkboxLabel {
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
